@@ -4,3 +4,6 @@
 -các form đều phải có 1 file txt để trình bày về các phần tử bên trong form đó.
 -font chữ: Segoe UI, 9pt.
 -Khi viết code thì phải command lại chức năng
+
+
+
