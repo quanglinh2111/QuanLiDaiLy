@@ -1,0 +1,34 @@
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\Màn hình Phiếu Nhập Hàng.exe.config
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\Màn hình Phiếu Nhập Hàng.exe
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\Màn hình Phiếu Nhập Hàng.pdb
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\BUS.dll
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DTO.dll
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DAL.dll
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\BUS.pdb
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DTO.pdb
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DAL.pdb
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.frmManHinhPhieuNhapHang.resources
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.Properties.Resources.resources
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn hình Phiếu Nhập Hàng.exe
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn hình Phiếu Nhập Hàng.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\Màn hình Phiếu Nhập Hàng.exe.config
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\Màn hình Phiếu Nhập Hàng.exe
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\Màn hình Phiếu Nhập Hàng.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\BUS.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DTO.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DAL.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\BUS.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DTO.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DAL.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.frmManHinhPhieuNhapHang.resources
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.Properties.Resources.resources
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn hình Phiếu Nhập Hàng.exe
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn hình Phiếu Nhập Hàng.pdb

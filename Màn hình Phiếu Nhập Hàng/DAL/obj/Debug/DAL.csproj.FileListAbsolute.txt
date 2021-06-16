@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DAL.dll
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DAL.pdb
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.dll
+C:\Users\Admin\source\repos\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DAL.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DAL.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DTO.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DTO.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CopyComplete
