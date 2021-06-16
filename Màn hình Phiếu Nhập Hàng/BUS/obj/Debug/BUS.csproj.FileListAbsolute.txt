@@ -20,3 +20,14 @@ C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\BUS\ob
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.dll
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\BUS.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\BUS.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\DAL.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\DTO.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\DAL.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\DTO.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.pdb
