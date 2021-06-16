@@ -13,3 +13,12 @@ C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\ob
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DTO.dll
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DTO.pdb
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DAL.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DAL.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DTO.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DTO.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.pdb
