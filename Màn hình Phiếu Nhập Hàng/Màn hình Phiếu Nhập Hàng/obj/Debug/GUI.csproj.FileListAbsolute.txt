@@ -97,3 +97,5 @@ D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLi
 D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.frmManHinhPhieuNhap.resources
 D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhXuatHang.resources
 D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn hình Phiếu Nhập Hàng.exe.licenses
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhBaoCaoCongNo.resources
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhBaoCaoDoanhSo.resources
