@@ -12,9 +12,9 @@ using DTO;
 
 namespace Màn_hình_Phiếu_Nhập_Hàng
 {
-    public partial class frmManHinhPhieuNhapHang : Form
+    public partial class frmManHinhPhieuNhap : Form
     {
-        public frmManHinhPhieuNhapHang()
+        public frmManHinhPhieuNhap()
         {
             InitializeComponent();
         }
