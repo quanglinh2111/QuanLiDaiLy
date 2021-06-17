@@ -14,9 +14,9 @@ namespace DTO
         string TenMatHang;
         int SoLuong;
         float DonGiaNhap;
-        float ThanhTien;
 
-        public tblCT_PHIEUNHAPHANG(int maCT_PhieuNhapHang, int maPhieuNhapHang, int maMatHang, string tenMatHang, int soLuong, float donGiaNhap, float thanhTien)
+
+        public tblCT_PHIEUNHAPHANG(int maCT_PhieuNhapHang, int maPhieuNhapHang, int maMatHang, string tenMatHang, int soLuong, float donGiaNhap)
         {
             MaCT_PhieuNhapHang = maCT_PhieuNhapHang;
             MaPhieuNhapHang = maPhieuNhapHang;
@@ -24,7 +24,7 @@ namespace DTO
             TenMatHang = tenMatHang;
             SoLuong = soLuong;
             DonGiaNhap = donGiaNhap;
-            ThanhTien = thanhTien;
+
         }
 
         public int MaCT_PhieuNhapHang1 { get => MaCT_PhieuNhapHang; set => MaCT_PhieuNhapHang = value; }
@@ -33,6 +33,5 @@ namespace DTO
         public string TenMatHang1 { get => TenMatHang; set => TenMatHang = value; }
         public int SoLuong1 { get => SoLuong; set => SoLuong = value; }
         public float DonGiaNhap1 { get => DonGiaNhap; set => DonGiaNhap = value; }
-        public float ThanhTien1 { get => ThanhTien; set => ThanhTien = value; }
     }
 }

@@ -22,3 +22,12 @@ D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLi
 D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.dll
 D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\QuanLiDaiLy\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DAL.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DAL.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DTO.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DTO.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.pdb

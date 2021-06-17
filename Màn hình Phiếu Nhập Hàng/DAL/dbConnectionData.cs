@@ -46,6 +46,7 @@ namespace DAL
             DataTable bangdulieu = new DataTable();  
                 SqlDataAdapter Adapter = new SqlDataAdapter(query, Conn);              
                 Adapter.Fill(bangdulieu);
+            Adapter.Dispose();
             Conn.Close();        
             return bangdulieu;
         }
