@@ -58,6 +58,12 @@
     <Compile Include="ManHinhChinh.Designer.cs">
       <DependentUpon>ManHinhChinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManHinhDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManHinhDangNhap.Designer.cs">
+      <DependentUpon>ManHinhDangNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManHinhNhapHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ManHinhChinh.resx">
       <DependentUpon>ManHinhChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManHinhDangNhap.resx">
+      <DependentUpon>ManHinhDangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManHinhNhapHang.resx">
       <DependentUpon>ManHinhNhapHang.cs</DependentUpon>
