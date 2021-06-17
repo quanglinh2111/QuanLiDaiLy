@@ -24,7 +24,7 @@ namespace DAL
             Conn.Close();
             return dt;
         }
-        //tu dong them thong tin phieu nhap khi bam them phieu nhap
+        //tạo 1 mã phiếu nhập
         public static int ThemThongTinPhieuNhap(tblPHIEUNHAPHANG pn)
         {
             SqlConnection Conn = dbConnectionData.HamKetNoi();

@@ -16,7 +16,7 @@ namespace DAL
             return Conn;
         }
 
-
+        //lấy tên các column trong 1 table vd: MaMatHang, TenMatHang
         public static List<string> GetnameCol(string tbl)
         {
             List<string> name = new List<string>();
@@ -37,7 +37,7 @@ namespace DAL
 
             return name;
         }
-
+        // Trả về 1 bảng table khi truyền vào query
         public static DataTable getDatabyquery(string query)
         {
             SqlConnection Conn = dbConnectionData.HamKetNoi();
@@ -51,6 +51,17 @@ namespace DAL
             return bangdulieu;
         }
 
-       
+        // thực thi câu lệnh nhưng không có giá trị trả về
+        public static void ExecuteQuery(string query)
+        {
+            SqlConnection Conn = dbConnectionData.HamKetNoi();
+            Conn.Open();
+            DataTable bangdulieu = new DataTable();
+            SqlDataAdapter Adapter = new SqlDataAdapter(query, Conn);
+            Adapter.Fill(bangdulieu);
+            Conn.Close();
+        }
+
+
     }
 }

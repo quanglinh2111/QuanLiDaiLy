@@ -15,6 +15,7 @@ namespace BUS
         {
             return D_PhieuNhapHang.getData();
         }
+        //thêm phiếu nhập
         public static int ThemThongTinPhieuNhap()
         {
             // lấy mã nhaphang
