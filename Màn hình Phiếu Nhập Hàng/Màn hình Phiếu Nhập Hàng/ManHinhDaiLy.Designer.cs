@@ -566,10 +566,10 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(342, 379);
+            this.button3.Location = new System.Drawing.Point(332, 379);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 42);
+            this.button3.Size = new System.Drawing.Size(134, 60);
             this.button3.TabIndex = 5;
             this.button3.Text = "Tra cứu";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
