@@ -64,6 +64,12 @@
     <Compile Include="ManHinhDangNhap.Designer.cs">
       <DependentUpon>ManHinhDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManHinhKetNoiCSDL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManHinhKetNoiCSDL.Designer.cs">
+      <DependentUpon>ManHinhKetNoiCSDL.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManHinhNhapHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManHinhDangNhap.resx">
       <DependentUpon>ManHinhDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManHinhKetNoiCSDL.resx">
+      <DependentUpon>ManHinhKetNoiCSDL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManHinhNhapHang.resx">
       <DependentUpon>ManHinhNhapHang.cs</DependentUpon>
