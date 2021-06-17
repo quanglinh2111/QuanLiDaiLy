@@ -77,15 +77,6 @@ namespace DAL
             //
             Conn.Close();
         }
-        //xoa
-        public static void ExecuteQuery(string query)
-        {      
-            SqlConnection Conn = dbConnectionData.HamKetNoi();
-            Conn.Open();
-            DataTable bangdulieu = new DataTable();
-            SqlDataAdapter Adapter = new SqlDataAdapter(query, Conn);
-            Adapter.Fill(bangdulieu);         
-            Conn.Close();   
-        }
+       
     }
 }

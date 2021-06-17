@@ -13,7 +13,6 @@ namespace BUS
     {
         public static int layma(DataTable tb)
         {
-
             int ma = 1;
             foreach (DataRow row in tb.Rows)
             {

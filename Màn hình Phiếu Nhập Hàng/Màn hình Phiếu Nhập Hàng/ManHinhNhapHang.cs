@@ -23,37 +23,26 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
 
         private void frmManHinhPhieuNhapHang_Load(object sender, EventArgs e)
         {
-            dgvDSPhieuNhap.DataSource = B_PhieuNhapHang.GetAllPhieuNhap();           
+            dgvDSPhieuNhap.DataSource = B_PhieuNhapHang.GetAllPhieuNhap();
+            //lấy giá trị của cột mã mặt hàng truyền vào ccb
             ccbTenMH.DataSource = B_MATHANG.GetAllMatHang();
             ccbTenMH.DisplayMember = "TenMatHang";
             //
             txtTong.Text = "0";
             //
-            grbDsPhieuNhap.Show();
+            grbChiTietPhieuNhap.Hide();
+            grbDanhSachPhieunhạp.Hide();
             grbTaoPhieu.Hide();
-            dgvDSPhieuNhap.Show();
-            dgvCTPNH.Hide();
+            grbTraCuuPhieuNhap.Hide();
         }  
 
-        //lập phiếu
+        //lập phiếu menu
         private void btnLapPhieu_Click(object sender, EventArgs e)
         {
-           
-            int mapn = B_PhieuNhapHang.ThemThongTinPhieuNhap();
-            MessageBox.Show("bạn đã tạo mới 1 phiếu nhập hàng");
-            dgvDSPhieuNhap.DataSource = B_PhieuNhapHang.GetAllPhieuNhap();
-            txtMPN.Text = mapn.ToString();         
-            dgvCTPNH.DataSource = B_CT_PHIEUNHAPHANG.getTablebyquery("select * from CT_PHIEUNHAPHANG where MaPhieuNhapHang = "+mapn+"");
-            txtDonGiaNhap.Text = "0";
-            txtSoLuongNhap.Text = "0";
-            //
-            grbDsPhieuNhap.Hide();
+            grbChiTietPhieuNhap.Show();
+            grbDanhSachPhieunhạp.Hide();
             grbTaoPhieu.Show();
-            dgvDSPhieuNhap.Hide();
-            dgvCTPNH.Show();
-            dgvTraCTPhieuNhap.Hide();
-
-
+            grbTraCuuPhieuNhap.Hide();
         }
         //tạo chi tiết phiếu
         private void btnTao_Click(object sender, EventArgs e)
@@ -74,9 +63,9 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             dgvCTPNH.DataSource = B_CT_PHIEUNHAPHANG.getTablebyquery("select * from CT_PHIEUNHAPHANG where MaPhieuNhapHang = " + mapn + "");
             //
             string str = " select ThanhTien from CT_PHIEUNHAPHANG where MaPhieuNhapHang = " + mapn + "";
-            txtTong.Text= B_CT_PHIEUNHAPHANG.GetSumMoney(str).ToString();
+            txtTongTien.Text= B_CT_PHIEUNHAPHANG.GetSumMoney(str).ToString();
         }
-
+        //ccbox thay đổi
         private void ccbTenMH_TextChanged(object sender, EventArgs e)
         {
             string str;
@@ -85,7 +74,7 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             txtMaMH.Text = B_CT_PHIEUNHAPHANG.getDatabyquery(str);
         }
 
-
+        //nhấp vào row trong bảng thì nhảy thông tin lên form
         private void dgvCTPNH_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             try
@@ -122,12 +111,11 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             MessageBox.Show("bạn đã xóa 1 chi tiết nhập hàng");
             txtMactpn.Text = "1";
             string str = " select ThanhTien from CT_PHIEUNHAPHANG where MaPhieuNhapHang = " + mapn + "";
-            txtTong.Text = B_CT_PHIEUNHAPHANG.GetSumMoney(str).ToString();
+            txtTongTien.Text = B_CT_PHIEUNHAPHANG.GetSumMoney(str).ToString();
             dgvCTPNH.DataSource = B_CT_PHIEUNHAPHANG.getTablebyquery("select * from CT_PHIEUNHAPHANG where MaPhieuNhapHang = " + mapn + "");
             btnXoa.Enabled = false;
             btnSua.Enabled = false;
         }
-
 
         private void btnSua_Click(object sender, EventArgs e)
         {
@@ -142,23 +130,34 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             MessageBox.Show("bạn đã sửa thành công");
             txtMactpn.Text = "1"; 
             string str = " select ThanhTien from CT_PHIEUNHAPHANG where MaPhieuNhapHang = " + mapn + "";
-            txtTong.Text = B_CT_PHIEUNHAPHANG.GetSumMoney(str).ToString();
+            txtTongTien.Text = B_CT_PHIEUNHAPHANG.GetSumMoney(str).ToString();
             dgvCTPNH.DataSource = B_CT_PHIEUNHAPHANG.getTablebyquery("select * from CT_PHIEUNHAPHANG where MaPhieuNhapHang = "+mapn+"");
         }
 
-        private void btnTraCuu_Click(object sender, EventArgs e)
+        private void btnDanhSach_Click(object sender, EventArgs e)
         {
-            dgvDSPhieuNhap.Show();
-            dgvCTPNH.Hide();
-            grbDsPhieuNhap.Show();
+            grbChiTietPhieuNhap.Hide();
+            grbDanhSachPhieunhạp.Show();
             grbTaoPhieu.Hide();
+            grbTraCuuPhieuNhap.Show();
         }
-
-        private void btnTra_Click(object sender, EventArgs e)
+        // tự động tạo 1 phiếu nhập hàng khi bấm vào tạo mới phiếu nhập
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int mapn = B_PhieuNhapHang.ThemThongTinPhieuNhap();
+            MessageBox.Show("bạn đã tạo mới 1 phiếu nhập hàng");
+            dgvDSPhieuNhap.DataSource = B_PhieuNhapHang.GetAllPhieuNhap();
+            txtMPN.Text = mapn.ToString();
+            dgvCTPNH.DataSource = B_CT_PHIEUNHAPHANG.getTablebyquery("select * from CT_PHIEUNHAPHANG where MaPhieuNhapHang = " + mapn + "");
+            txtDonGiaNhap.Text = "0";
+            txtSoLuongNhap.Text = "0";
+        }
+        //tra cuu phiêu nhap hang khi biết mã phiêu nhập
+        private void button1_Click(object sender, EventArgs e)
         {
             dgvTraCTPhieuNhap.DataSource = B_CT_PHIEUNHAPHANG.getTablebyquery("select * from CT_PHIEUNHAPHANG where MaPhieuNhapHang = "+txtTra.Text+"");
+
         }
 
-       
     }
 }

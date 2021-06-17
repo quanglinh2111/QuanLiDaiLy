@@ -16,15 +16,15 @@ namespace BUS
             return D_CT_PHIEUNHAPHANG.getData();
             
         }
+        //thấy thông tin của ctmathang và thêm vào mã ctmathang
         public static void ThemChiTietPhieuNhap(tblCT_PHIEUNHAPHANG ct)
         {
             DataTable tb = D_CT_PHIEUNHAPHANG.getData();
             ct.MaCT_PhieuNhapHang1 = Logic.layma(tb);
             D_CT_PHIEUNHAPHANG.ThemChiTietPhieuNhap(ct);
- 
         }
 
-        //lay ten cot 
+        ////lấy tên các column trong 1 table(bảng MatHang) vd: MaMatHang, TenMatHang
         public static List<string> GetnameCol()
         {
             return dbConnectionData.GetnameCol("MATHANG");
@@ -65,13 +65,13 @@ namespace BUS
         public static void XoaChiTietPhieuNhapHang(tblCT_PHIEUNHAPHANG ct)
         {
             string query = "delete from CT_PHIEUNHAPHANG where MaCT_PhieuNhapHang = " + ct.MaCT_PhieuNhapHang1 + "";
-            D_CT_PHIEUNHAPHANG.ExecuteQuery(query);
+            dbConnectionData.ExecuteQuery(query);
         }
         public static void SuaChiTietPhieuNhapHang(tblCT_PHIEUNHAPHANG ct)
         {
 
             string query = "UPDATE CT_PHIEUNHAPHANG SET MaMatHang = "+ct.MaMatHang1+", TenMatHang = '"+ct.TenMatHang1+"', SoLuong = "+ct.SoLuong1+", DonGiaNhap = "+ct.DonGiaNhap1+ "  WHERE MaCT_PhieuNhapHang = " + ct.MaCT_PhieuNhapHang1+" ";
-            D_CT_PHIEUNHAPHANG.ExecuteQuery(query);
+            dbConnectionData.ExecuteQuery(query);
         }
 
     }
