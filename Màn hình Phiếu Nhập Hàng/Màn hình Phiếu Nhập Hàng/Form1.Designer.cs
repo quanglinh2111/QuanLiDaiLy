@@ -30,85 +30,190 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmManHinhPhieuNhap));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnTraCuu = new System.Windows.Forms.Button();
-            this.btnLapPhieu = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
-            this.grBTaoPhieu = new System.Windows.Forms.GroupBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.grbDsPhieuNhap = new System.Windows.Forms.GroupBox();
+            this.btnTra = new System.Windows.Forms.Button();
+            this.txtTra = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.grbDanhSachPhieuNhap = new System.Windows.Forms.GroupBox();
+            this.dgvTraCTPhieuNhap = new System.Windows.Forms.DataGridView();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.txtMactpn = new System.Windows.Forms.TextBox();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.dgvCTPNH = new System.Windows.Forms.DataGridView();
+            this.dgvDSPhieuNhap = new System.Windows.Forms.DataGridView();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtTong = new System.Windows.Forms.TextBox();
+            this.grbTaoPhieu = new System.Windows.Forms.GroupBox();
             this.ccbTenMH = new System.Windows.Forms.ComboBox();
             this.txtMaMH = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtMPN = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.btnTao = new System.Windows.Forms.Button();
-            this.btnHuyBo = new System.Windows.Forms.Button();
+            this.btnKetThuc = new System.Windows.Forms.Button();
             this.txtDonGiaNhap = new System.Windows.Forms.TextBox();
             this.txtSoLuongNhap = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtTong = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.grBDanhSachPhieuNhap = new System.Windows.Forms.GroupBox();
-            this.dgv1 = new System.Windows.Forms.DataGridView();
-            this.dgvCTPNH = new System.Windows.Forms.DataGridView();
-            this.dgvDSPhieuNhap = new System.Windows.Forms.DataGridView();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.grBTaoPhieu.SuspendLayout();
-            this.grBDanhSachPhieuNhap.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnTraCuu = new System.Windows.Forms.Button();
+            this.btnLapPhieu = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
+            this.grbDsPhieuNhap.SuspendLayout();
+            this.grbDanhSachPhieuNhap.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTraCTPhieuNhap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCTPNH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSPhieuNhap)).BeginInit();
+            this.grbTaoPhieu.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // panel1
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox1.Controls.Add(this.btnTraCuu);
-            this.groupBox1.Controls.Add(this.btnLapPhieu);
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.InfoText;
-            resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.TabStop = false;
+            this.panel1.Controls.Add(this.grbDsPhieuNhap);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.grbDanhSachPhieuNhap);
+            this.panel1.Controls.Add(this.grbTaoPhieu);
+            this.panel1.Controls.Add(this.groupBox1);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
             // 
-            // btnTraCuu
+            // grbDsPhieuNhap
             // 
-            resources.ApplyResources(this.btnTraCuu, "btnTraCuu");
-            this.btnTraCuu.Name = "btnTraCuu";
-            this.btnTraCuu.UseVisualStyleBackColor = true;
+            this.grbDsPhieuNhap.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.grbDsPhieuNhap.Controls.Add(this.btnTra);
+            this.grbDsPhieuNhap.Controls.Add(this.txtTra);
+            this.grbDsPhieuNhap.Controls.Add(this.txtMactpn);
+            this.grbDsPhieuNhap.Controls.Add(this.label3);
+            resources.ApplyResources(this.grbDsPhieuNhap, "grbDsPhieuNhap");
+            this.grbDsPhieuNhap.Name = "grbDsPhieuNhap";
+            this.grbDsPhieuNhap.TabStop = false;
             // 
-            // btnLapPhieu
+            // btnTra
             // 
-            this.btnLapPhieu.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            resources.ApplyResources(this.btnLapPhieu, "btnLapPhieu");
-            this.btnLapPhieu.Name = "btnLapPhieu";
-            this.btnLapPhieu.UseVisualStyleBackColor = false;
-            this.btnLapPhieu.Click += new System.EventHandler(this.btnLapPhieu_Click);
+            this.btnTra.BackColor = System.Drawing.SystemColors.HotTrack;
+            resources.ApplyResources(this.btnTra, "btnTra");
+            this.btnTra.Name = "btnTra";
+            this.btnTra.UseVisualStyleBackColor = false;
+            this.btnTra.Click += new System.EventHandler(this.btnTra_Click);
             // 
-            // grBTaoPhieu
+            // txtTra
             // 
-            this.grBTaoPhieu.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.grBTaoPhieu.Controls.Add(this.ccbTenMH);
-            this.grBTaoPhieu.Controls.Add(this.txtMaMH);
-            this.grBTaoPhieu.Controls.Add(this.label10);
-            this.grBTaoPhieu.Controls.Add(this.txtMPN);
-            this.grBTaoPhieu.Controls.Add(this.label9);
-            this.grBTaoPhieu.Controls.Add(this.btnTao);
-            this.grBTaoPhieu.Controls.Add(this.btnHuyBo);
-            this.grBTaoPhieu.Controls.Add(this.txtDonGiaNhap);
-            this.grBTaoPhieu.Controls.Add(this.txtSoLuongNhap);
-            this.grBTaoPhieu.Controls.Add(this.label7);
-            this.grBTaoPhieu.Controls.Add(this.label6);
-            this.grBTaoPhieu.Controls.Add(this.label5);
-            this.grBTaoPhieu.Controls.Add(this.label2);
-            this.grBTaoPhieu.ForeColor = System.Drawing.SystemColors.InfoText;
-            resources.ApplyResources(this.grBTaoPhieu, "grBTaoPhieu");
-            this.grBTaoPhieu.Name = "grBTaoPhieu";
-            this.grBTaoPhieu.TabStop = false;
+            resources.ApplyResources(this.txtTra, "txtTra");
+            this.txtTra.Name = "txtTra";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // grbDanhSachPhieuNhap
+            // 
+            this.grbDanhSachPhieuNhap.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.grbDanhSachPhieuNhap.Controls.Add(this.dgvTraCTPhieuNhap);
+            this.grbDanhSachPhieuNhap.Controls.Add(this.btnSua);
+            this.grbDanhSachPhieuNhap.Controls.Add(this.btnXoa);
+            this.grbDanhSachPhieuNhap.Controls.Add(this.dgvCTPNH);
+            this.grbDanhSachPhieuNhap.Controls.Add(this.dgvDSPhieuNhap);
+            this.grbDanhSachPhieuNhap.Controls.Add(this.label8);
+            this.grbDanhSachPhieuNhap.Controls.Add(this.label4);
+            this.grbDanhSachPhieuNhap.Controls.Add(this.txtTong);
+            this.grbDanhSachPhieuNhap.ForeColor = System.Drawing.SystemColors.InfoText;
+            resources.ApplyResources(this.grbDanhSachPhieuNhap, "grbDanhSachPhieuNhap");
+            this.grbDanhSachPhieuNhap.Name = "grbDanhSachPhieuNhap";
+            this.grbDanhSachPhieuNhap.TabStop = false;
+            // 
+            // dgvTraCTPhieuNhap
+            // 
+            this.dgvTraCTPhieuNhap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dgvTraCTPhieuNhap, "dgvTraCTPhieuNhap");
+            this.dgvTraCTPhieuNhap.Name = "dgvTraCTPhieuNhap";
+            this.dgvTraCTPhieuNhap.RowTemplate.Height = 28;
+            // 
+            // btnSua
+            // 
+            this.btnSua.BackColor = System.Drawing.SystemColors.Highlight;
+            resources.ApplyResources(this.btnSua, "btnSua");
+            this.btnSua.Name = "btnSua";
+            this.btnSua.TabStop = false;
+            this.btnSua.UseVisualStyleBackColor = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // txtMactpn
+            // 
+            resources.ApplyResources(this.txtMactpn, "txtMactpn");
+            this.txtMactpn.Name = "txtMactpn";
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.BackColor = System.Drawing.SystemColors.HotTrack;
+            resources.ApplyResources(this.btnXoa, "btnXoa");
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // dgvCTPNH
+            // 
+            this.dgvCTPNH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dgvCTPNH, "dgvCTPNH");
+            this.dgvCTPNH.Name = "dgvCTPNH";
+            this.dgvCTPNH.RowTemplate.Height = 28;
+            this.dgvCTPNH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCTPNH_CellClick);
+            // 
+            // dgvDSPhieuNhap
+            // 
+            this.dgvDSPhieuNhap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dgvDSPhieuNhap, "dgvDSPhieuNhap");
+            this.dgvDSPhieuNhap.Name = "dgvDSPhieuNhap";
+            this.dgvDSPhieuNhap.RowTemplate.Height = 28;
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.Name = "label8";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // txtTong
+            // 
+            resources.ApplyResources(this.txtTong, "txtTong");
+            this.txtTong.Name = "txtTong";
+            // 
+            // grbTaoPhieu
+            // 
+            this.grbTaoPhieu.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.grbTaoPhieu.Controls.Add(this.ccbTenMH);
+            this.grbTaoPhieu.Controls.Add(this.txtMaMH);
+            this.grbTaoPhieu.Controls.Add(this.label10);
+            this.grbTaoPhieu.Controls.Add(this.txtMPN);
+            this.grbTaoPhieu.Controls.Add(this.label9);
+            this.grbTaoPhieu.Controls.Add(this.btnTao);
+            this.grbTaoPhieu.Controls.Add(this.btnKetThuc);
+            this.grbTaoPhieu.Controls.Add(this.txtDonGiaNhap);
+            this.grbTaoPhieu.Controls.Add(this.txtSoLuongNhap);
+            this.grbTaoPhieu.Controls.Add(this.label7);
+            this.grbTaoPhieu.Controls.Add(this.label6);
+            this.grbTaoPhieu.Controls.Add(this.label5);
+            this.grbTaoPhieu.Controls.Add(this.label2);
+            this.grbTaoPhieu.ForeColor = System.Drawing.SystemColors.InfoText;
+            resources.ApplyResources(this.grbTaoPhieu, "grbTaoPhieu");
+            this.grbTaoPhieu.Name = "grbTaoPhieu";
+            this.grbTaoPhieu.TabStop = false;
             // 
             // ccbTenMH
             // 
@@ -145,12 +250,12 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.btnTao.UseVisualStyleBackColor = false;
             this.btnTao.Click += new System.EventHandler(this.btnTao_Click);
             // 
-            // btnHuyBo
+            // btnKetThuc
             // 
-            this.btnHuyBo.BackColor = System.Drawing.SystemColors.HotTrack;
-            resources.ApplyResources(this.btnHuyBo, "btnHuyBo");
-            this.btnHuyBo.Name = "btnHuyBo";
-            this.btnHuyBo.UseVisualStyleBackColor = false;
+            this.btnKetThuc.BackColor = System.Drawing.SystemColors.HotTrack;
+            resources.ApplyResources(this.btnKetThuc, "btnKetThuc");
+            this.btnKetThuc.Name = "btnKetThuc";
+            this.btnKetThuc.UseVisualStyleBackColor = false;
             // 
             // txtDonGiaNhap
             // 
@@ -182,113 +287,90 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
-            // txtTong
+            // groupBox1
             // 
-            resources.ApplyResources(this.txtTong, "txtTong");
-            this.txtTong.Name = "txtTong";
+            this.groupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox1.Controls.Add(this.btnTraCuu);
+            this.groupBox1.Controls.Add(this.btnLapPhieu);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.InfoText;
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
             // 
-            // label4
+            // btnTraCuu
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
+            resources.ApplyResources(this.btnTraCuu, "btnTraCuu");
+            this.btnTraCuu.Name = "btnTraCuu";
+            this.btnTraCuu.UseVisualStyleBackColor = true;
+            this.btnTraCuu.Click += new System.EventHandler(this.btnTraCuu_Click);
             // 
-            // grBDanhSachPhieuNhap
+            // btnLapPhieu
             // 
-            this.grBDanhSachPhieuNhap.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.grBDanhSachPhieuNhap.Controls.Add(this.dgv1);
-            this.grBDanhSachPhieuNhap.Controls.Add(this.dgvCTPNH);
-            this.grBDanhSachPhieuNhap.Controls.Add(this.dgvDSPhieuNhap);
-            this.grBDanhSachPhieuNhap.Controls.Add(this.label8);
-            this.grBDanhSachPhieuNhap.Controls.Add(this.label4);
-            this.grBDanhSachPhieuNhap.Controls.Add(this.txtTong);
-            this.grBDanhSachPhieuNhap.ForeColor = System.Drawing.SystemColors.InfoText;
-            resources.ApplyResources(this.grBDanhSachPhieuNhap, "grBDanhSachPhieuNhap");
-            this.grBDanhSachPhieuNhap.Name = "grBDanhSachPhieuNhap";
-            this.grBDanhSachPhieuNhap.TabStop = false;
-            // 
-            // dgv1
-            // 
-            this.dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dgv1, "dgv1");
-            this.dgv1.Name = "dgv1";
-            this.dgv1.RowTemplate.Height = 28;
-            // 
-            // dgvCTPNH
-            // 
-            this.dgvCTPNH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dgvCTPNH, "dgvCTPNH");
-            this.dgvCTPNH.Name = "dgvCTPNH";
-            this.dgvCTPNH.RowTemplate.Height = 28;
-            // 
-            // dgvDSPhieuNhap
-            // 
-            this.dgvDSPhieuNhap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dgvDSPhieuNhap, "dgvDSPhieuNhap");
-            this.dgvDSPhieuNhap.Name = "dgvDSPhieuNhap";
-            this.dgvDSPhieuNhap.RowTemplate.Height = 28;
-            // 
-            // label8
-            // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.Name = "label8";
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            this.btnLapPhieu.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            resources.ApplyResources(this.btnLapPhieu, "btnLapPhieu");
+            this.btnLapPhieu.Name = "btnLapPhieu";
+            this.btnLapPhieu.UseVisualStyleBackColor = false;
+            this.btnLapPhieu.Click += new System.EventHandler(this.btnLapPhieu_Click);
             // 
             // frmManHinhPhieuNhap
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.grBDanhSachPhieuNhap);
-            this.Controls.Add(this.grBTaoPhieu);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.panel1);
             this.Name = "frmManHinhPhieuNhap";
             this.Load += new System.EventHandler(this.frmManHinhPhieuNhapHang_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.grBTaoPhieu.ResumeLayout(false);
-            this.grBTaoPhieu.PerformLayout();
-            this.grBDanhSachPhieuNhap.ResumeLayout(false);
-            this.grBDanhSachPhieuNhap.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.grbDsPhieuNhap.ResumeLayout(false);
+            this.grbDsPhieuNhap.PerformLayout();
+            this.grbDanhSachPhieuNhap.ResumeLayout(false);
+            this.grbDanhSachPhieuNhap.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTraCTPhieuNhap)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCTPNH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSPhieuNhap)).EndInit();
+            this.grbTaoPhieu.ResumeLayout(false);
+            this.grbTaoPhieu.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnTraCuu;
-        private System.Windows.Forms.Button btnLapPhieu;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
-        private System.Windows.Forms.GroupBox grBTaoPhieu;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.GroupBox grbDsPhieuNhap;
+        private System.Windows.Forms.Button btnTra;
+        private System.Windows.Forms.TextBox txtTra;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox grbDanhSachPhieuNhap;
+        private System.Windows.Forms.DataGridView dgvTraCTPhieuNhap;
+        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.TextBox txtMactpn;
+        private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.DataGridView dgvCTPNH;
+        private System.Windows.Forms.DataGridView dgvDSPhieuNhap;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtTong;
+        private System.Windows.Forms.GroupBox grbTaoPhieu;
+        private System.Windows.Forms.ComboBox ccbTenMH;
+        private System.Windows.Forms.TextBox txtMaMH;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtMPN;
+        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnTao;
-        private System.Windows.Forms.Button btnHuyBo;
+        private System.Windows.Forms.Button btnKetThuc;
         private System.Windows.Forms.TextBox txtDonGiaNhap;
         private System.Windows.Forms.TextBox txtSoLuongNhap;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox grBDanhSachPhieuNhap;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dgvDSPhieuNhap;
-        private System.Windows.Forms.TextBox txtTong;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtMPN;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtMaMH;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.DataGridView dgvCTPNH;
-        private System.Windows.Forms.ComboBox ccbTenMH;
-        private System.Windows.Forms.DataGridView dgv1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnTraCuu;
+        private System.Windows.Forms.Button btnLapPhieu;
     }
 }
 

@@ -38,7 +38,6 @@ namespace DAL
             command.Parameters.Add("@tenmathang", SqlDbType.NVarChar, 50);
             command.Parameters.Add("@soluong", SqlDbType.Int);
             command.Parameters.Add("@dongianhap", SqlDbType.Float);
-            command.Parameters.Add("@thanhtien", SqlDbType.Float);
 
 
             command.Parameters["@mact_pnh"].Value = ct.MaCT_PhieuNhapHang1;
@@ -47,12 +46,46 @@ namespace DAL
             command.Parameters["@tenmathang"].Value = ct.TenMatHang1;
             command.Parameters["@soluong"].Value = ct.SoLuong1;
             command.Parameters["@dongianhap"].Value = ct.DonGiaNhap1;
-            command.Parameters["@thanhtien"].Value = ct.ThanhTien1;
+            command.ExecuteNonQuery();
+            //
+            Conn.Close();           
+        }
+        //sưa
+        public static void SuaChiTietMatHang(tblCT_PHIEUNHAPHANG ct)
+        {
+            SqlConnection Conn = dbConnectionData.HamKetNoi();
+            Conn.Open();
+            SqlCommand command = new SqlCommand("pn_themchitietpnh", Conn);
+            command.CommandType = System.Data.CommandType.StoredProcedure;
+            //
+            command.Parameters.Add("@mact_pnh", SqlDbType.Int);
+            command.Parameters.Add("@maphieunhaphang", SqlDbType.Int);
+            command.Parameters.Add("@mamh", SqlDbType.Int);
+            command.Parameters.Add("@tenmathang", SqlDbType.NVarChar, 50);
+            command.Parameters.Add("@soluong", SqlDbType.Int);
+            command.Parameters.Add("@dongianhap", SqlDbType.Float);
+
+            command.Parameters["@mact_pnh"].Value = ct.MaCT_PhieuNhapHang1;
+            command.Parameters["@maphieunhaphang"].Value = ct.MaPhieuNhapHang1;
+            command.Parameters["@mamh"].Value = ct.MaMatHang1;
+            command.Parameters["@tenmathang"].Value = ct.TenMatHang1;
+            command.Parameters["@soluong"].Value = ct.SoLuong1;
+            command.Parameters["@dongianhap"].Value = ct.DonGiaNhap1;
+ 
 
             command.ExecuteNonQuery();
             //
             Conn.Close();
-            
+        }
+        //xoa
+        public static void ExecuteQuery(string query)
+        {      
+            SqlConnection Conn = dbConnectionData.HamKetNoi();
+            Conn.Open();
+            DataTable bangdulieu = new DataTable();
+            SqlDataAdapter Adapter = new SqlDataAdapter(query, Conn);
+            Adapter.Fill(bangdulieu);         
+            Conn.Close();   
         }
     }
 }

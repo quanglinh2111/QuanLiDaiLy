@@ -30,11 +30,48 @@ namespace BUS
             return dbConnectionData.GetnameCol("MATHANG");
         }
         //lay gia tri cot
-        public static DataTable getDatabyquery(string query)
+        public static string getDatabyquery(string query)
+        {
+
+            DataTable dt = dbConnectionData.getDatabyquery(query);
+            if (dt.Rows.Count == 0) return "";
+            DataRow dr = dt.Rows[0];           
+            return dr[0].ToString();
+        }
+        //lay bang tu query
+        public static DataTable getTablebyquery(string query)
         {
 
             DataTable dt = dbConnectionData.getDatabyquery(query);
             return dt;
+        }
+        //tinh tổng tiền
+        public static int GetSumMoney(string query)
+        {
+
+            DataTable dt = dbConnectionData.getDatabyquery(query);
+            
+            int sum = 0;
+            int result = 1;
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                // your index is in i
+                if (int.TryParse(dt.Rows[i][0].ToString(), out result))
+                    sum += int.Parse(dt.Rows[i][0].ToString());
+            }
+            return sum;
+        }
+        //xóa
+        public static void XoaChiTietPhieuNhapHang(tblCT_PHIEUNHAPHANG ct)
+        {
+            string query = "delete from CT_PHIEUNHAPHANG where MaCT_PhieuNhapHang = " + ct.MaCT_PhieuNhapHang1 + "";
+            D_CT_PHIEUNHAPHANG.ExecuteQuery(query);
+        }
+        public static void SuaChiTietPhieuNhapHang(tblCT_PHIEUNHAPHANG ct)
+        {
+
+            string query = "UPDATE CT_PHIEUNHAPHANG SET MaMatHang = "+ct.MaMatHang1+", TenMatHang = '"+ct.TenMatHang1+"', SoLuong = "+ct.SoLuong1+", DonGiaNhap = "+ct.DonGiaNhap1+ "  WHERE MaCT_PhieuNhapHang = " + ct.MaCT_PhieuNhapHang1+" ";
+            D_CT_PHIEUNHAPHANG.ExecuteQuery(query);
         }
 
     }
