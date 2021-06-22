@@ -166,3 +166,68 @@ C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhậ
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhChinh.resources
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhDangNhap.resources
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhBaoCaoDoanhSo.resources
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\Màn hình Phiếu Nhập Hàng.exe.config
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\Màn hình Phiếu Nhập Hàng.exe
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\Màn hình Phiếu Nhập Hàng.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\BUS.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DTO.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DAL.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.Pdf.v21.1.Core.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.Pdf.v21.1.Drawing.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.Sparkline.v21.1.Core.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\BUS.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DTO.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.Data.Desktop.v21.1.xml
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.Data.v21.1.xml
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.Printing.v21.1.Core.xml
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.Utils.v21.1.xml
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.XtraBars.v21.1.xml
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.XtraEditors.v21.1.xml
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DAL.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.Pdf.v21.1.Core.xml
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.Pdf.v21.1.Drawing.xml
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\DevExpress.Sparkline.v21.1.Core.xml
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\de\DevExpress.Data.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\es\DevExpress.Data.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ja\DevExpress.Data.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ru\DevExpress.Data.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\de\DevExpress.Printing.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\es\DevExpress.Printing.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ja\DevExpress.Printing.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ru\DevExpress.Printing.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\de\DevExpress.Utils.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\es\DevExpress.Utils.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ja\DevExpress.Utils.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ru\DevExpress.Utils.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\de\DevExpress.XtraBars.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\es\DevExpress.XtraBars.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ja\DevExpress.XtraBars.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ru\DevExpress.XtraBars.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\de\DevExpress.XtraEditors.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\es\DevExpress.XtraEditors.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ja\DevExpress.XtraEditors.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ru\DevExpress.XtraEditors.v21.1.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\de\DevExpress.Pdf.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\es\DevExpress.Pdf.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ja\DevExpress.Pdf.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ru\DevExpress.Pdf.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\de\DevExpress.Sparkline.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\es\DevExpress.Sparkline.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ja\DevExpress.Sparkline.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\bin\Debug\ru\DevExpress.Sparkline.v21.1.Core.resources.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhChinh.resources
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhDaiLy.resources
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhDangNhap.resources
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhKetNoiCSDL.resources
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.frmManHinhPhieuNhap.resources
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhBaoCaoCongNo.resources
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhBaoCaoDoanhSo.resources
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhXuatHang.resources
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.Properties.Resources.resources
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn hình Phiếu Nhập Hàng.exe.licenses
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\GUI.csproj.CopyComplete
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn hình Phiếu Nhập Hàng.exe
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn hình Phiếu Nhập Hàng.pdb

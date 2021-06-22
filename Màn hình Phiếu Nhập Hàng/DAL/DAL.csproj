@@ -41,10 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="D_LoaiDaiLy.cs" />
+    <Compile Include="D_PhieuThuTien.cs" />
+    <Compile Include="D_DaiLy.cs" />
     <Compile Include="dbConnectionData.cs" />
     <Compile Include="D_CT_PHIEUNHAPHANG.cs" />
     <Compile Include="D_MATHANG.cs" />
     <Compile Include="D_PhieuNhapHang.cs" />
+    <Compile Include="D_Quan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

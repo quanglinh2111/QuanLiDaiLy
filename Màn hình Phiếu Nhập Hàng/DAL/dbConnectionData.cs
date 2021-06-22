@@ -12,7 +12,7 @@ namespace DAL
     {
         public static SqlConnection HamKetNoi()
         {
-            SqlConnection Conn = new SqlConnection(@"Data Source=DESKTOP-FAJU1CK\SQLEXPRESS;Initial Catalog=QuanLy;Integrated Security=True");
+            SqlConnection Conn = new SqlConnection(@"Data Source=MSI;Initial Catalog=QuanLy;Integrated Security=True");
             return Conn;
         }
 

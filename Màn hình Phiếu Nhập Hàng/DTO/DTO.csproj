@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="tblLoaiDaiLy.cs" />
+    <Compile Include="tblQuan.cs" />
+    <Compile Include="tblPHIEUTHUTIEN.cs" />
+    <Compile Include="tblDAILY.cs" />
     <Compile Include="tblCT_PHIEUNHAPHANG.cs" />
     <Compile Include="tblPHIEUNHAPHANG.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
