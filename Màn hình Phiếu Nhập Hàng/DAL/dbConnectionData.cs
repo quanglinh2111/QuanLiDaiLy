@@ -42,7 +42,6 @@ namespace DAL
         {
             SqlConnection Conn = dbConnectionData.HamKetNoi();
             Conn.Open();
-            //
             DataTable bangdulieu = new DataTable();  
                 SqlDataAdapter Adapter = new SqlDataAdapter(query, Conn);              
                 Adapter.Fill(bangdulieu);
@@ -61,7 +60,5 @@ namespace DAL
             Adapter.Fill(bangdulieu);
             Conn.Close();
         }
-
-
     }
 }

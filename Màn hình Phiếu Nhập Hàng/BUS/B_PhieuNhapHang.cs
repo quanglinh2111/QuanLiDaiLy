@@ -9,19 +9,19 @@ using DTO;
 
 namespace BUS
 {
-    public class B_PhieuNhapHang
+    public class B_PHIEUNHAPHANG
     {
         public static DataTable GetAllPhieuNhap()
         {
-            return D_PhieuNhapHang.getData();
+            return D_PHIEUNHAPHANG.getData();
         }
         //thêm phiếu nhập
         public static int ThemThongTinPhieuNhap()
         {
             // lấy mã nhaphang
-            DataTable tb = D_PhieuNhapHang.getData();
+            DataTable tb = D_PHIEUNHAPHANG.getData();
             tblPHIEUNHAPHANG nh = new tblPHIEUNHAPHANG(Logic.layma(tb), DateTime.Now, 0);
-            int ma = D_PhieuNhapHang.ThemThongTinPhieuNhap(nh);
+            int ma = D_PHIEUNHAPHANG.ThemThongTinPhieuNhap(nh);
             return ma;
         }
 

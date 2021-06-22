@@ -43,8 +43,10 @@
   <ItemGroup>
     <Compile Include="dbConnectionData.cs" />
     <Compile Include="D_CT_PHIEUNHAPHANG.cs" />
+    <Compile Include="D_CT_PHIEUXUATHANG.cs" />
     <Compile Include="D_MATHANG.cs" />
-    <Compile Include="D_PhieuNhapHang.cs" />
+    <Compile Include="D_PHIEUNHAPHANG.cs" />
+    <Compile Include="D_PHIEUXUATHANG.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

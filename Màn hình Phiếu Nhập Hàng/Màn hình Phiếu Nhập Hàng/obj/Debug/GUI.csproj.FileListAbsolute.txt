@@ -166,3 +166,5 @@ C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhậ
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhChinh.resources
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhDangNhap.resources
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhBaoCaoDoanhSo.resources
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhDaiLy.resources
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\Màn hình Phiếu Nhập Hàng\obj\Debug\Màn_hình_Phiếu_Nhập_Hàng.ManHinhKetNoiCSDL.resources

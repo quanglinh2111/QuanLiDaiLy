@@ -9,7 +9,7 @@ using DTO;
 
 namespace DAL
 {
-    public class D_PhieuNhapHang
+    public class D_PHIEUNHAPHANG
     {
         public static DataTable getData()
         {

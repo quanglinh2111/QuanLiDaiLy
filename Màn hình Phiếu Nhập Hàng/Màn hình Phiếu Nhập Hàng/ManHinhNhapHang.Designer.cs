@@ -36,10 +36,8 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.grbDanhSachPhieunhạp = new System.Windows.Forms.GroupBox();
             this.label22 = new System.Windows.Forms.Label();
             this.dgvDSPhieuNhap = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grbTraCuuPhieuNhap = new System.Windows.Forms.GroupBox();
+            this.txtTra = new System.Windows.Forms.TextBox();
             this.dgvTraCTPhieuNhap = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
@@ -71,9 +69,12 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnDanhSach = new System.Windows.Forms.Button();
-            this.btnLapPhieu = new System.Windows.Forms.Button();
-            this.txtTra = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnTraCuu = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.grbDanhSachPhieunhạp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSPhieuNhap)).BeginInit();
@@ -121,24 +122,6 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.dgvDSPhieuNhap.Name = "dgvDSPhieuNhap";
             this.dgvDSPhieuNhap.RowTemplate.Height = 28;
             // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "MaPhieuNhapHang";
-            resources.ApplyResources(this.Column1, "Column1");
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "NgayLapPhieu";
-            resources.ApplyResources(this.Column2, "Column2");
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.DataPropertyName = "TongTienPhieuNhap";
-            resources.ApplyResources(this.Column3, "Column3");
-            this.Column3.Name = "Column3";
-            // 
             // grbTraCuuPhieuNhap
             // 
             this.grbTraCuuPhieuNhap.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -150,6 +133,11 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             resources.ApplyResources(this.grbTraCuuPhieuNhap, "grbTraCuuPhieuNhap");
             this.grbTraCuuPhieuNhap.Name = "grbTraCuuPhieuNhap";
             this.grbTraCuuPhieuNhap.TabStop = false;
+            // 
+            // txtTra
+            // 
+            resources.ApplyResources(this.txtTra, "txtTra");
+            this.txtTra.Name = "txtTra";
             // 
             // dgvTraCTPhieuNhap
             // 
@@ -288,7 +276,6 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.ccbTenMH.FormattingEnabled = true;
             resources.ApplyResources(this.ccbTenMH, "ccbTenMH");
             this.ccbTenMH.Name = "ccbTenMH";
-       
             this.ccbTenMH.TextChanged += new System.EventHandler(this.ccbTenMH_TextChanged);
             // 
             // txtMaMH
@@ -359,32 +346,55 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox1.Controls.Add(this.btnDanhSach);
-            this.groupBox1.Controls.Add(this.btnLapPhieu);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.btnTraCuu);
+            this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.InfoText;
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
-            // btnDanhSach
+            // button3
             // 
-            resources.ApplyResources(this.btnDanhSach, "btnDanhSach");
-            this.btnDanhSach.Name = "btnDanhSach";
-            this.btnDanhSach.UseVisualStyleBackColor = true;
-            this.btnDanhSach.Click += new System.EventHandler(this.btnDanhSach_Click);
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // btnLapPhieu
+            // btnTraCuu
             // 
-            this.btnLapPhieu.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            resources.ApplyResources(this.btnLapPhieu, "btnLapPhieu");
-            this.btnLapPhieu.Name = "btnLapPhieu";
-            this.btnLapPhieu.UseVisualStyleBackColor = false;
-            this.btnLapPhieu.Click += new System.EventHandler(this.btnLapPhieu_Click);
+            this.btnTraCuu.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            resources.ApplyResources(this.btnTraCuu, "btnTraCuu");
+            this.btnTraCuu.Name = "btnTraCuu";
+            this.btnTraCuu.UseVisualStyleBackColor = false;
+            this.btnTraCuu.Click += new System.EventHandler(this.btnTraCuu_Click);
             // 
-            // txtTra
+            // button4
             // 
-            resources.ApplyResources(this.txtTra, "txtTra");
-            this.txtTra.Name = "txtTra";
+            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "MaPhieuNhapHang";
+            resources.ApplyResources(this.Column1, "Column1");
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "NgayLapPhieu";
+            resources.ApplyResources(this.Column2, "Column2");
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "TongTienPhieuNhap";
+            resources.ApplyResources(this.Column3, "Column3");
+            this.Column3.Name = "Column3";
             // 
             // frmManHinhPhieuNhap
             // 
@@ -440,8 +450,6 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnLapPhieu;
-        private System.Windows.Forms.Button btnDanhSach;
         private System.Windows.Forms.GroupBox grbDanhSachPhieunhạp;
         private System.Windows.Forms.TextBox txtTongTien;
         private System.Windows.Forms.Label label22;
@@ -452,10 +460,13 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtMactpn;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtTra;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnTraCuu;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.TextBox txtTra;
     }
 }
 

@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="tblCT_PHIEUNHAPHANG.cs" />
+    <Compile Include="tblCT_PHIEUXUATHANG.cs" />
     <Compile Include="tblPHIEUNHAPHANG.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tblPHIEUXUATHANG.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="B_CT_PHIEUNHAPHANG.cs" />
+    <Compile Include="B_CT_PHIEUXUATHANG.cs" />
     <Compile Include="B_MATHANG.cs" />
-    <Compile Include="B_PhieuNhapHang.cs" />
+    <Compile Include="B_PHIEUNHAPHANG.cs" />
+    <Compile Include="B_PHIEUXUATHANG.cs" />
     <Compile Include="Logic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
