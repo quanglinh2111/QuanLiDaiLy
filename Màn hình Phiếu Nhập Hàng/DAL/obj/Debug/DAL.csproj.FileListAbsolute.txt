@@ -31,3 +31,12 @@ C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhậ
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.dll
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DAL.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DAL.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DTO.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\DAL\bin\Debug\DTO.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\DAL\obj\Debug\DAL.pdb

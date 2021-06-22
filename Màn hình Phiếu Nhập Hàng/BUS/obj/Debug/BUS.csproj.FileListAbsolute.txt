@@ -42,3 +42,14 @@ C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhậ
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.dll
 C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLyBanHang\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\BUS.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\BUS.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\DAL.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\DTO.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\DAL.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\bin\Debug\DTO.pdb
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.dll
+D:\Study\College\Second year\Semester 2\CNPM\Project\Màn hình Phiếu Nhập Hàng\BUS\obj\Debug\BUS.pdb

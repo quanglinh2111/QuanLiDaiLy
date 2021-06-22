@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using DTO;
 
 namespace DAL
-{
+{ 
     public class D_CT_PHIEUNHAPHANG
     {
         public static DataTable getData()
