@@ -36,5 +36,10 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
         {
 
         }
+
+        private void ManHinhXuatHang_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

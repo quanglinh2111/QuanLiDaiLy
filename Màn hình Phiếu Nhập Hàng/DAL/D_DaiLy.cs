@@ -34,14 +34,26 @@ namespace DAL
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.Add("@MaDaiLy", SqlDbType.Int);
+            command.Parameters.Add("@TenDaiLy", SqlDbType.NVarChar,50);
+            command.Parameters.Add("@MaLoaiDaiLy", SqlDbType.Int);
             command.Parameters.Add("@DienThoai", SqlDbType.Int);
             command.Parameters.Add("@DiaChi", SqlDbType.NVarChar,50);
+            command.Parameters.Add("@MaQuan", SqlDbType.Int);
             command.Parameters.Add("@NgayTiepNhan", SqlDbType.Date);
+            command.Parameters.Add("@TongNo", SqlDbType.Int);
+            command.Parameters.Add("@Email", SqlDbType.NVarChar,50);
+
 
             command.Parameters["@MaDaiLy"].Value = dl.MaDaiLy1;
+            command.Parameters["@TenDaiLy"].Value = dl.TenDaiLy1;
+            command.Parameters["@MaLoaiDaiLy"].Value = dl.MaLoaiDaiLy1;
             command.Parameters["@DienThoai"].Value = dl.DienThoai1;
             command.Parameters["@DiaChi"].Value = dl.DiaChi1;
+            command.Parameters["@MaQuan"].Value = dl.MaQuan1;
             command.Parameters["@NgayTiepNhan"].Value = dl.NgayTiepNhan1;
+            command.Parameters["@TongNo"].Value = dl.TongNo1;
+            command.Parameters["@Email"].Value = dl.Email1;
+
 
             command.ExecuteNonQuery();
             Conn.Close();

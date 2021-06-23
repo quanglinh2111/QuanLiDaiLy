@@ -33,28 +33,6 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.grbDanhSachPhieunhạp = new System.Windows.Forms.GroupBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.dgvDSPhieuNhap = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.grbTraCuuPhieuNhap = new System.Windows.Forms.GroupBox();
-            this.dgvTraCTPhieuNhap = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.grbChiTietPhieuNhap = new System.Windows.Forms.GroupBox();
-            this.txtMactpn = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtTongTien = new System.Windows.Forms.TextBox();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dgvCTPNH = new System.Windows.Forms.DataGridView();
-            this.txtTong = new System.Windows.Forms.TextBox();
             this.grbTaoPhieu = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.ccbTenMH = new System.Windows.Forms.ComboBox();
@@ -70,31 +48,155 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.grbDanhSachPhieunhạp = new System.Windows.Forms.GroupBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.dgvDSPhieuNhap = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.grbTraCuuPhieuNhap = new System.Windows.Forms.GroupBox();
+            this.txtTra = new System.Windows.Forms.TextBox();
+            this.dgvTraCTPhieuNhap = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.grbChiTietPhieuNhap = new System.Windows.Forms.GroupBox();
+            this.txtMactpn = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtTongTien = new System.Windows.Forms.TextBox();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dgvCTPNH = new System.Windows.Forms.DataGridView();
+            this.txtTong = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnDanhSach = new System.Windows.Forms.Button();
             this.btnLapPhieu = new System.Windows.Forms.Button();
-            this.txtTra = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
+            this.grbTaoPhieu.SuspendLayout();
             this.grbDanhSachPhieunhạp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSPhieuNhap)).BeginInit();
             this.grbTraCuuPhieuNhap.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTraCTPhieuNhap)).BeginInit();
             this.grbChiTietPhieuNhap.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCTPNH)).BeginInit();
-            this.grbTaoPhieu.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.grbDanhSachPhieunhạp);
+            this.panel1.Controls.Add(this.grbTaoPhieu);
             this.panel1.Controls.Add(this.grbTraCuuPhieuNhap);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.grbChiTietPhieuNhap);
-            this.panel1.Controls.Add(this.grbTaoPhieu);
             this.panel1.Controls.Add(this.groupBox1);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            // 
+            // grbTaoPhieu
+            // 
+            this.grbTaoPhieu.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.grbTaoPhieu.Controls.Add(this.button2);
+            this.grbTaoPhieu.Controls.Add(this.ccbTenMH);
+            this.grbTaoPhieu.Controls.Add(this.txtMaMH);
+            this.grbTaoPhieu.Controls.Add(this.label10);
+            this.grbTaoPhieu.Controls.Add(this.txtMPN);
+            this.grbTaoPhieu.Controls.Add(this.label9);
+            this.grbTaoPhieu.Controls.Add(this.btnTao);
+            this.grbTaoPhieu.Controls.Add(this.btnKetThuc);
+            this.grbTaoPhieu.Controls.Add(this.txtDonGiaNhap);
+            this.grbTaoPhieu.Controls.Add(this.txtSoLuongNhap);
+            this.grbTaoPhieu.Controls.Add(this.label7);
+            this.grbTaoPhieu.Controls.Add(this.label6);
+            this.grbTaoPhieu.Controls.Add(this.label5);
+            this.grbTaoPhieu.Controls.Add(this.label2);
+            this.grbTaoPhieu.ForeColor = System.Drawing.SystemColors.InfoText;
+            resources.ApplyResources(this.grbTaoPhieu, "grbTaoPhieu");
+            this.grbTaoPhieu.Name = "grbTaoPhieu";
+            this.grbTaoPhieu.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // ccbTenMH
+            // 
+            this.ccbTenMH.FormattingEnabled = true;
+            resources.ApplyResources(this.ccbTenMH, "ccbTenMH");
+            this.ccbTenMH.Name = "ccbTenMH";
+            this.ccbTenMH.TextChanged += new System.EventHandler(this.ccbTenMH_TextChanged);
+            // 
+            // txtMaMH
+            // 
+            resources.ApplyResources(this.txtMaMH, "txtMaMH");
+            this.txtMaMH.Name = "txtMaMH";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.Name = "label10";
+            // 
+            // txtMPN
+            // 
+            resources.ApplyResources(this.txtMPN, "txtMPN");
+            this.txtMPN.Name = "txtMPN";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.Name = "label9";
+            // 
+            // btnTao
+            // 
+            this.btnTao.BackColor = System.Drawing.SystemColors.HotTrack;
+            resources.ApplyResources(this.btnTao, "btnTao");
+            this.btnTao.Name = "btnTao";
+            this.btnTao.UseVisualStyleBackColor = false;
+            this.btnTao.Click += new System.EventHandler(this.btnTao_Click);
+            // 
+            // btnKetThuc
+            // 
+            this.btnKetThuc.BackColor = System.Drawing.SystemColors.HotTrack;
+            resources.ApplyResources(this.btnKetThuc, "btnKetThuc");
+            this.btnKetThuc.Name = "btnKetThuc";
+            this.btnKetThuc.UseVisualStyleBackColor = false;
+            // 
+            // txtDonGiaNhap
+            // 
+            resources.ApplyResources(this.txtDonGiaNhap, "txtDonGiaNhap");
+            this.txtDonGiaNhap.Name = "txtDonGiaNhap";
+            // 
+            // txtSoLuongNhap
+            // 
+            resources.ApplyResources(this.txtSoLuongNhap, "txtSoLuongNhap");
+            this.txtSoLuongNhap.Name = "txtSoLuongNhap";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.Name = "label7";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
             // 
             // grbDanhSachPhieunhạp
             // 
@@ -150,6 +252,11 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             resources.ApplyResources(this.grbTraCuuPhieuNhap, "grbTraCuuPhieuNhap");
             this.grbTraCuuPhieuNhap.Name = "grbTraCuuPhieuNhap";
             this.grbTraCuuPhieuNhap.TabStop = false;
+            // 
+            // txtTra
+            // 
+            resources.ApplyResources(this.txtTra, "txtTra");
+            this.txtTra.Name = "txtTra";
             // 
             // dgvTraCTPhieuNhap
             // 
@@ -253,109 +360,6 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             resources.ApplyResources(this.txtTong, "txtTong");
             this.txtTong.Name = "txtTong";
             // 
-            // grbTaoPhieu
-            // 
-            this.grbTaoPhieu.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.grbTaoPhieu.Controls.Add(this.button2);
-            this.grbTaoPhieu.Controls.Add(this.ccbTenMH);
-            this.grbTaoPhieu.Controls.Add(this.txtMaMH);
-            this.grbTaoPhieu.Controls.Add(this.label10);
-            this.grbTaoPhieu.Controls.Add(this.txtMPN);
-            this.grbTaoPhieu.Controls.Add(this.label9);
-            this.grbTaoPhieu.Controls.Add(this.btnTao);
-            this.grbTaoPhieu.Controls.Add(this.btnKetThuc);
-            this.grbTaoPhieu.Controls.Add(this.txtDonGiaNhap);
-            this.grbTaoPhieu.Controls.Add(this.txtSoLuongNhap);
-            this.grbTaoPhieu.Controls.Add(this.label7);
-            this.grbTaoPhieu.Controls.Add(this.label6);
-            this.grbTaoPhieu.Controls.Add(this.label5);
-            this.grbTaoPhieu.Controls.Add(this.label2);
-            this.grbTaoPhieu.ForeColor = System.Drawing.SystemColors.InfoText;
-            resources.ApplyResources(this.grbTaoPhieu, "grbTaoPhieu");
-            this.grbTaoPhieu.Name = "grbTaoPhieu";
-            this.grbTaoPhieu.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // ccbTenMH
-            // 
-            this.ccbTenMH.FormattingEnabled = true;
-            resources.ApplyResources(this.ccbTenMH, "ccbTenMH");
-            this.ccbTenMH.Name = "ccbTenMH";
-       
-            this.ccbTenMH.TextChanged += new System.EventHandler(this.ccbTenMH_TextChanged);
-            // 
-            // txtMaMH
-            // 
-            resources.ApplyResources(this.txtMaMH, "txtMaMH");
-            this.txtMaMH.Name = "txtMaMH";
-            // 
-            // label10
-            // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.Name = "label10";
-            // 
-            // txtMPN
-            // 
-            resources.ApplyResources(this.txtMPN, "txtMPN");
-            this.txtMPN.Name = "txtMPN";
-            // 
-            // label9
-            // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.Name = "label9";
-            // 
-            // btnTao
-            // 
-            this.btnTao.BackColor = System.Drawing.SystemColors.HotTrack;
-            resources.ApplyResources(this.btnTao, "btnTao");
-            this.btnTao.Name = "btnTao";
-            this.btnTao.UseVisualStyleBackColor = false;
-            this.btnTao.Click += new System.EventHandler(this.btnTao_Click);
-            // 
-            // btnKetThuc
-            // 
-            this.btnKetThuc.BackColor = System.Drawing.SystemColors.HotTrack;
-            resources.ApplyResources(this.btnKetThuc, "btnKetThuc");
-            this.btnKetThuc.Name = "btnKetThuc";
-            this.btnKetThuc.UseVisualStyleBackColor = false;
-            // 
-            // txtDonGiaNhap
-            // 
-            resources.ApplyResources(this.txtDonGiaNhap, "txtDonGiaNhap");
-            this.txtDonGiaNhap.Name = "txtDonGiaNhap";
-            // 
-            // txtSoLuongNhap
-            // 
-            resources.ApplyResources(this.txtSoLuongNhap, "txtSoLuongNhap");
-            this.txtSoLuongNhap.Name = "txtSoLuongNhap";
-            // 
-            // label7
-            // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
-            // 
-            // label6
-            // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
-            // 
-            // label5
-            // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
@@ -381,11 +385,6 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.btnLapPhieu.UseVisualStyleBackColor = false;
             this.btnLapPhieu.Click += new System.EventHandler(this.btnLapPhieu_Click);
             // 
-            // txtTra
-            // 
-            resources.ApplyResources(this.txtTra, "txtTra");
-            this.txtTra.Name = "txtTra";
-            // 
             // frmManHinhPhieuNhap
             // 
             resources.ApplyResources(this, "$this");
@@ -395,6 +394,8 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.Load += new System.EventHandler(this.frmManHinhPhieuNhapHang_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.grbTaoPhieu.ResumeLayout(false);
+            this.grbTaoPhieu.PerformLayout();
             this.grbDanhSachPhieunhạp.ResumeLayout(false);
             this.grbDanhSachPhieunhạp.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSPhieuNhap)).EndInit();
@@ -404,8 +405,6 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.grbChiTietPhieuNhap.ResumeLayout(false);
             this.grbChiTietPhieuNhap.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCTPNH)).EndInit();
-            this.grbTaoPhieu.ResumeLayout(false);
-            this.grbTaoPhieu.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 

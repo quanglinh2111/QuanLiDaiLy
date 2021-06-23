@@ -32,46 +32,46 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManHinhXuatHang));
             this.label1 = new System.Windows.Forms.Label();
             this.grBTaoMoiPhieuXuat = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.grBChiTietPhieuXuat = new System.Windows.Forms.GroupBox();
-            this.btnLapPhieu = new System.Windows.Forms.Button();
-            this.btnTraCuu = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtboxMaPhieuXuat = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.btnTaoPhieuXuat = new System.Windows.Forms.Button();
+            this.btnHuyPhieuXuat = new System.Windows.Forms.Button();
+            this.cbBoxDonGiaXuat = new System.Windows.Forms.ComboBox();
             this.dtpNgayLapPhieuXuat = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtBoxMaMatHangXuat = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtBoxTenMatHangXuat = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.txtBoxSoLuongXuat = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.cbBoxDonGiaXuat = new System.Windows.Forms.ComboBox();
-            this.btnHuyPhieuXuat = new System.Windows.Forms.Button();
-            this.btnTaoPhieuXuat = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtBoxTenMatHangXuat = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtBoxMaMatHangXuat = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtboxMaPhieuXuat = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnTraCuu = new System.Windows.Forms.Button();
+            this.btnLapPhieu = new System.Windows.Forms.Button();
+            this.grBChiTietPhieuXuat = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label11 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label15 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label17 = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.txtBoxConLai = new System.Windows.Forms.TextBox();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.label14 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.txtBoxSoTienTra = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.txtBoxTongTien = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.grBoxDanhSachPhieuXuat = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
@@ -80,8 +80,8 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.grBTaoMoiPhieuXuat.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.grBChiTietPhieuXuat.SuspendLayout();
-            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.grBoxDanhSachPhieuXuat.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
@@ -122,110 +122,48 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.grBTaoMoiPhieuXuat.TabStop = false;
             this.grBTaoMoiPhieuXuat.Text = "Tạo mới phiếu xuất hàng";
             // 
-            // groupBox2
+            // btnTaoPhieuXuat
             // 
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.btnTraCuu);
-            this.groupBox2.Controls.Add(this.btnLapPhieu);
-            this.groupBox2.Location = new System.Drawing.Point(12, 17);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(131, 369);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
+            this.btnTaoPhieuXuat.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnTaoPhieuXuat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTaoPhieuXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnTaoPhieuXuat.Image")));
+            this.btnTaoPhieuXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTaoPhieuXuat.Location = new System.Drawing.Point(288, 337);
+            this.btnTaoPhieuXuat.Name = "btnTaoPhieuXuat";
+            this.btnTaoPhieuXuat.Size = new System.Drawing.Size(74, 34);
+            this.btnTaoPhieuXuat.TabIndex = 5;
+            this.btnTaoPhieuXuat.Text = "Tạo";
+            this.btnTaoPhieuXuat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnTaoPhieuXuat.UseVisualStyleBackColor = false;
             // 
-            // grBChiTietPhieuXuat
+            // btnHuyPhieuXuat
             // 
-            this.grBChiTietPhieuXuat.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.grBChiTietPhieuXuat.Controls.Add(this.dataGridView1);
-            this.grBChiTietPhieuXuat.Controls.Add(this.dateTimePicker1);
-            this.grBChiTietPhieuXuat.Controls.Add(this.label11);
-            this.grBChiTietPhieuXuat.Controls.Add(this.label9);
-            this.grBChiTietPhieuXuat.Controls.Add(this.label10);
-            this.grBChiTietPhieuXuat.Controls.Add(this.comboBox1);
-            this.grBChiTietPhieuXuat.Location = new System.Drawing.Point(530, 49);
-            this.grBChiTietPhieuXuat.Name = "grBChiTietPhieuXuat";
-            this.grBChiTietPhieuXuat.Size = new System.Drawing.Size(607, 405);
-            this.grBChiTietPhieuXuat.TabIndex = 1;
-            this.grBChiTietPhieuXuat.TabStop = false;
-            this.grBChiTietPhieuXuat.Text = "Chi tiết";
+            this.btnHuyPhieuXuat.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnHuyPhieuXuat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnHuyPhieuXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnHuyPhieuXuat.Image")));
+            this.btnHuyPhieuXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHuyPhieuXuat.Location = new System.Drawing.Point(176, 337);
+            this.btnHuyPhieuXuat.Name = "btnHuyPhieuXuat";
+            this.btnHuyPhieuXuat.Size = new System.Drawing.Size(86, 34);
+            this.btnHuyPhieuXuat.TabIndex = 5;
+            this.btnHuyPhieuXuat.Text = "Hủy bỏ";
+            this.btnHuyPhieuXuat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHuyPhieuXuat.UseVisualStyleBackColor = false;
             // 
-            // btnLapPhieu
+            // cbBoxDonGiaXuat
             // 
-            this.btnLapPhieu.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnLapPhieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLapPhieu.Image = ((System.Drawing.Image)(resources.GetObject("btnLapPhieu.Image")));
-            this.btnLapPhieu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLapPhieu.Location = new System.Drawing.Point(1, 134);
-            this.btnLapPhieu.Name = "btnLapPhieu";
-            this.btnLapPhieu.Size = new System.Drawing.Size(124, 91);
-            this.btnLapPhieu.TabIndex = 0;
-            this.btnLapPhieu.Text = "Lập Phiếu";
-            this.btnLapPhieu.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLapPhieu.UseVisualStyleBackColor = false;
-            this.btnLapPhieu.Click += new System.EventHandler(this.btnLapPhieu_Click);
+            this.cbBoxDonGiaXuat.FormattingEnabled = true;
+            this.cbBoxDonGiaXuat.Location = new System.Drawing.Point(176, 289);
+            this.cbBoxDonGiaXuat.Name = "cbBoxDonGiaXuat";
+            this.cbBoxDonGiaXuat.Size = new System.Drawing.Size(186, 28);
+            this.cbBoxDonGiaXuat.TabIndex = 4;
             // 
-            // btnTraCuu
+            // dtpNgayLapPhieuXuat
             // 
-            this.btnTraCuu.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnTraCuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTraCuu.Image = ((System.Drawing.Image)(resources.GetObject("btnTraCuu.Image")));
-            this.btnTraCuu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnTraCuu.Location = new System.Drawing.Point(1, 239);
-            this.btnTraCuu.Name = "btnTraCuu";
-            this.btnTraCuu.Size = new System.Drawing.Size(124, 91);
-            this.btnTraCuu.TabIndex = 0;
-            this.btnTraCuu.Text = "Tra cứu";
-            this.btnTraCuu.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnTraCuu.UseVisualStyleBackColor = false;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.groupBox5.Controls.Add(this.txtBoxConLai);
-            this.groupBox5.Controls.Add(this.dataGridView2);
-            this.groupBox5.Controls.Add(this.label14);
-            this.groupBox5.Controls.Add(this.dateTimePicker2);
-            this.groupBox5.Controls.Add(this.txtBoxSoTienTra);
-            this.groupBox5.Controls.Add(this.label13);
-            this.groupBox5.Controls.Add(this.label17);
-            this.groupBox5.Controls.Add(this.txtBoxTongTien);
-            this.groupBox5.Controls.Add(this.button1);
-            this.groupBox5.Controls.Add(this.label12);
-            this.groupBox5.Controls.Add(this.label16);
-            this.groupBox5.Controls.Add(this.label15);
-            this.groupBox5.Controls.Add(this.comboBox2);
-            this.groupBox5.Location = new System.Drawing.Point(149, 477);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(988, 459);
-            this.groupBox5.TabIndex = 1;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Tra cứu phiếu xuất hàng";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(39, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(258, 25);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Nhập thông tin phiếu xuất";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(27, 77);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 20);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Mã phiếu xuất";
-            // 
-            // txtboxMaPhieuXuat
-            // 
-            this.txtboxMaPhieuXuat.Location = new System.Drawing.Point(176, 74);
-            this.txtboxMaPhieuXuat.Name = "txtboxMaPhieuXuat";
-            this.txtboxMaPhieuXuat.Size = new System.Drawing.Size(188, 26);
-            this.txtboxMaPhieuXuat.TabIndex = 2;
+            this.dtpNgayLapPhieuXuat.Location = new System.Drawing.Point(176, 114);
+            this.dtpNgayLapPhieuXuat.Name = "dtpNgayLapPhieuXuat";
+            this.dtpNgayLapPhieuXuat.Size = new System.Drawing.Size(188, 26);
+            this.dtpNgayLapPhieuXuat.TabIndex = 3;
             // 
             // label4
             // 
@@ -235,54 +173,6 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.label4.Size = new System.Drawing.Size(113, 20);
             this.label4.TabIndex = 1;
             this.label4.Text = "Ngày lập phiếu";
-            // 
-            // dtpNgayLapPhieuXuat
-            // 
-            this.dtpNgayLapPhieuXuat.Location = new System.Drawing.Point(176, 114);
-            this.dtpNgayLapPhieuXuat.Name = "dtpNgayLapPhieuXuat";
-            this.dtpNgayLapPhieuXuat.Size = new System.Drawing.Size(188, 26);
-            this.dtpNgayLapPhieuXuat.TabIndex = 3;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(27, 161);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 20);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Mã mặt hàng";
-            // 
-            // txtBoxMaMatHangXuat
-            // 
-            this.txtBoxMaMatHangXuat.Location = new System.Drawing.Point(176, 158);
-            this.txtBoxMaMatHangXuat.Name = "txtBoxMaMatHangXuat";
-            this.txtBoxMaMatHangXuat.Size = new System.Drawing.Size(188, 26);
-            this.txtBoxMaMatHangXuat.TabIndex = 2;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(27, 203);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 20);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Tên mặt hàng";
-            // 
-            // txtBoxTenMatHangXuat
-            // 
-            this.txtBoxTenMatHangXuat.Location = new System.Drawing.Point(176, 200);
-            this.txtBoxTenMatHangXuat.Name = "txtBoxTenMatHangXuat";
-            this.txtBoxTenMatHangXuat.Size = new System.Drawing.Size(188, 26);
-            this.txtBoxTenMatHangXuat.TabIndex = 2;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(27, 249);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(72, 20);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Số lượng";
             // 
             // txtBoxSoLuongXuat
             // 
@@ -300,41 +190,168 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.label8.TabIndex = 1;
             this.label8.Text = "Đơn giá xuất";
             // 
-            // cbBoxDonGiaXuat
+            // label7
             // 
-            this.cbBoxDonGiaXuat.FormattingEnabled = true;
-            this.cbBoxDonGiaXuat.Location = new System.Drawing.Point(176, 289);
-            this.cbBoxDonGiaXuat.Name = "cbBoxDonGiaXuat";
-            this.cbBoxDonGiaXuat.Size = new System.Drawing.Size(186, 28);
-            this.cbBoxDonGiaXuat.TabIndex = 4;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(27, 249);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(72, 20);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Số lượng";
             // 
-            // btnHuyPhieuXuat
+            // txtBoxTenMatHangXuat
             // 
-            this.btnHuyPhieuXuat.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btnHuyPhieuXuat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnHuyPhieuXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnHuyPhieuXuat.Image")));
-            this.btnHuyPhieuXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHuyPhieuXuat.Location = new System.Drawing.Point(176, 337);
-            this.btnHuyPhieuXuat.Name = "btnHuyPhieuXuat";
-            this.btnHuyPhieuXuat.Size = new System.Drawing.Size(86, 34);
-            this.btnHuyPhieuXuat.TabIndex = 5;
-            this.btnHuyPhieuXuat.Text = "Hủy bỏ";
-            this.btnHuyPhieuXuat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnHuyPhieuXuat.UseVisualStyleBackColor = false;
+            this.txtBoxTenMatHangXuat.Location = new System.Drawing.Point(176, 200);
+            this.txtBoxTenMatHangXuat.Name = "txtBoxTenMatHangXuat";
+            this.txtBoxTenMatHangXuat.Size = new System.Drawing.Size(188, 26);
+            this.txtBoxTenMatHangXuat.TabIndex = 2;
             // 
-            // btnTaoPhieuXuat
+            // label6
             // 
-            this.btnTaoPhieuXuat.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btnTaoPhieuXuat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnTaoPhieuXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnTaoPhieuXuat.Image")));
-            this.btnTaoPhieuXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTaoPhieuXuat.Location = new System.Drawing.Point(288, 337);
-            this.btnTaoPhieuXuat.Name = "btnTaoPhieuXuat";
-            this.btnTaoPhieuXuat.Size = new System.Drawing.Size(74, 34);
-            this.btnTaoPhieuXuat.TabIndex = 5;
-            this.btnTaoPhieuXuat.Text = "Tạo";
-            this.btnTaoPhieuXuat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTaoPhieuXuat.UseVisualStyleBackColor = false;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(27, 203);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(107, 20);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Tên mặt hàng";
+            // 
+            // txtBoxMaMatHangXuat
+            // 
+            this.txtBoxMaMatHangXuat.Location = new System.Drawing.Point(176, 158);
+            this.txtBoxMaMatHangXuat.Name = "txtBoxMaMatHangXuat";
+            this.txtBoxMaMatHangXuat.Size = new System.Drawing.Size(188, 26);
+            this.txtBoxMaMatHangXuat.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(27, 161);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(102, 20);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Mã mặt hàng";
+            // 
+            // txtboxMaPhieuXuat
+            // 
+            this.txtboxMaPhieuXuat.Location = new System.Drawing.Point(176, 74);
+            this.txtboxMaPhieuXuat.Name = "txtboxMaPhieuXuat";
+            this.txtboxMaPhieuXuat.Size = new System.Drawing.Size(188, 26);
+            this.txtboxMaPhieuXuat.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(27, 77);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(108, 20);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Mã phiếu xuất";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(39, 37);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(258, 25);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Nhập thông tin phiếu xuất";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.btnTraCuu);
+            this.groupBox2.Controls.Add(this.btnLapPhieu);
+            this.groupBox2.Location = new System.Drawing.Point(12, 17);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(131, 369);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button2.Location = new System.Drawing.Point(1, 32);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(124, 91);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Danh sách";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // btnTraCuu
+            // 
+            this.btnTraCuu.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnTraCuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTraCuu.Image = ((System.Drawing.Image)(resources.GetObject("btnTraCuu.Image")));
+            this.btnTraCuu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnTraCuu.Location = new System.Drawing.Point(1, 239);
+            this.btnTraCuu.Name = "btnTraCuu";
+            this.btnTraCuu.Size = new System.Drawing.Size(124, 91);
+            this.btnTraCuu.TabIndex = 0;
+            this.btnTraCuu.Text = "Tra cứu";
+            this.btnTraCuu.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnTraCuu.UseVisualStyleBackColor = false;
+            // 
+            // btnLapPhieu
+            // 
+            this.btnLapPhieu.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnLapPhieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLapPhieu.Image = ((System.Drawing.Image)(resources.GetObject("btnLapPhieu.Image")));
+            this.btnLapPhieu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLapPhieu.Location = new System.Drawing.Point(1, 134);
+            this.btnLapPhieu.Name = "btnLapPhieu";
+            this.btnLapPhieu.Size = new System.Drawing.Size(124, 91);
+            this.btnLapPhieu.TabIndex = 0;
+            this.btnLapPhieu.Text = "Lập Phiếu";
+            this.btnLapPhieu.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLapPhieu.UseVisualStyleBackColor = false;
+            this.btnLapPhieu.Click += new System.EventHandler(this.btnLapPhieu_Click);
+            // 
+            // grBChiTietPhieuXuat
+            // 
+            this.grBChiTietPhieuXuat.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.grBChiTietPhieuXuat.Controls.Add(this.dataGridView1);
+            this.grBChiTietPhieuXuat.Controls.Add(this.dateTimePicker1);
+            this.grBChiTietPhieuXuat.Controls.Add(this.label11);
+            this.grBChiTietPhieuXuat.Controls.Add(this.label9);
+            this.grBChiTietPhieuXuat.Controls.Add(this.label10);
+            this.grBChiTietPhieuXuat.Controls.Add(this.comboBox1);
+            this.grBChiTietPhieuXuat.Location = new System.Drawing.Point(530, 49);
+            this.grBChiTietPhieuXuat.Name = "grBChiTietPhieuXuat";
+            this.grBChiTietPhieuXuat.Size = new System.Drawing.Size(607, 405);
+            this.grBChiTietPhieuXuat.TabIndex = 1;
+            this.grBChiTietPhieuXuat.TabStop = false;
+            this.grBChiTietPhieuXuat.Text = "Chi tiết";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(16, 90);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(574, 247);
+            this.dataGridView1.TabIndex = 7;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(356, 56);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(234, 26);
+            this.dateTimePicker1.TabIndex = 6;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(237, 59);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(113, 20);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "Ngày lập phiếu";
             // 
             // label9
             // 
@@ -364,87 +381,36 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.comboBox1.Size = new System.Drawing.Size(93, 28);
             this.comboBox1.TabIndex = 4;
             // 
-            // dateTimePicker1
+            // groupBox5
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(356, 56);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(234, 26);
-            this.dateTimePicker1.TabIndex = 6;
+            this.groupBox5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.groupBox5.Controls.Add(this.txtBoxConLai);
+            this.groupBox5.Controls.Add(this.dataGridView2);
+            this.groupBox5.Controls.Add(this.label14);
+            this.groupBox5.Controls.Add(this.dateTimePicker2);
+            this.groupBox5.Controls.Add(this.txtBoxSoTienTra);
+            this.groupBox5.Controls.Add(this.label13);
+            this.groupBox5.Controls.Add(this.label17);
+            this.groupBox5.Controls.Add(this.txtBoxTongTien);
+            this.groupBox5.Controls.Add(this.button1);
+            this.groupBox5.Controls.Add(this.label12);
+            this.groupBox5.Controls.Add(this.label16);
+            this.groupBox5.Controls.Add(this.label15);
+            this.groupBox5.Controls.Add(this.comboBox2);
+            this.groupBox5.Location = new System.Drawing.Point(149, 477);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(988, 459);
+            this.groupBox5.TabIndex = 1;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Tra cứu phiếu xuất hàng";
             // 
-            // label11
+            // txtBoxConLai
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(237, 59);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(113, 20);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "Ngày lập phiếu";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 90);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(574, 247);
-            this.dataGridView1.TabIndex = 7;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(13, 61);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(150, 20);
-            this.label15.TabIndex = 5;
-            this.label15.Text = "Chọn mã phiếu xuất";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(169, 61);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(193, 28);
-            this.comboBox2.TabIndex = 6;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(342, 22);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(246, 25);
-            this.label16.TabIndex = 7;
-            this.label16.Text = "Tra cứu phiếu xuất hàng";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(793, 55);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 38);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Tra cứu";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(507, 63);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(234, 26);
-            this.dateTimePicker2.TabIndex = 10;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(388, 66);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(113, 20);
-            this.label17.TabIndex = 9;
-            this.label17.Text = "Ngày lập phiếu";
+            this.txtBoxConLai.Location = new System.Drawing.Point(768, 403);
+            this.txtBoxConLai.Multiline = true;
+            this.txtBoxConLai.Name = "txtBoxConLai";
+            this.txtBoxConLai.Size = new System.Drawing.Size(134, 42);
+            this.txtBoxConLai.TabIndex = 13;
             // 
             // dataGridView2
             // 
@@ -456,14 +422,6 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.dataGridView2.Size = new System.Drawing.Size(955, 288);
             this.dataGridView2.TabIndex = 11;
             // 
-            // txtBoxConLai
-            // 
-            this.txtBoxConLai.Location = new System.Drawing.Point(768, 403);
-            this.txtBoxConLai.Multiline = true;
-            this.txtBoxConLai.Name = "txtBoxConLai";
-            this.txtBoxConLai.Size = new System.Drawing.Size(134, 42);
-            this.txtBoxConLai.TabIndex = 13;
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -474,6 +432,13 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.label14.TabIndex = 12;
             this.label14.Text = "Còn lại";
             this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(507, 63);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(234, 26);
+            this.dateTimePicker2.TabIndex = 10;
             // 
             // txtBoxSoTienTra
             // 
@@ -493,6 +458,15 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.label13.TabIndex = 10;
             this.label13.Text = "Số tiền trả";
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(388, 66);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(113, 20);
+            this.label17.TabIndex = 9;
+            this.label17.Text = "Ngày lập phiếu";
+            // 
             // txtBoxTongTien
             // 
             this.txtBoxTongTien.Location = new System.Drawing.Point(261, 403);
@@ -501,6 +475,19 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.txtBoxTongTien.Size = new System.Drawing.Size(138, 42);
             this.txtBoxTongTien.TabIndex = 9;
             this.txtBoxTongTien.TextChanged += new System.EventHandler(this.txtBoxTongTien_TextChanged);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(793, 55);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(124, 38);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Tra cứu";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // label12
             // 
@@ -512,19 +499,32 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.label12.TabIndex = 8;
             this.label12.Text = "Tổng tiền";
             // 
-            // button2
+            // label16
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(1, 32);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 91);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Danh sách";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = false;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(342, 22);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(246, 25);
+            this.label16.TabIndex = 7;
+            this.label16.Text = "Tra cứu phiếu xuất hàng";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(13, 61);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(150, 20);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "Chọn mã phiếu xuất";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(169, 61);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(193, 28);
+            this.comboBox2.TabIndex = 6;
             // 
             // grBoxDanhSachPhieuXuat
             // 
@@ -594,14 +594,15 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
             this.Controls.Add(this.label1);
             this.Name = "ManHinhXuatHang";
             this.Text = "Màn hình phiếu xuất hàng";
+            this.Load += new System.EventHandler(this.ManHinhXuatHang_Load);
             this.grBTaoMoiPhieuXuat.ResumeLayout(false);
             this.grBTaoMoiPhieuXuat.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.grBChiTietPhieuXuat.ResumeLayout(false);
             this.grBChiTietPhieuXuat.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.grBoxDanhSachPhieuXuat.ResumeLayout(false);
             this.grBoxDanhSachPhieuXuat.PerformLayout();

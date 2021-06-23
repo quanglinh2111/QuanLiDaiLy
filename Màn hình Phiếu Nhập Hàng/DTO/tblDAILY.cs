@@ -15,10 +15,10 @@ namespace DTO
         private String DiaChi;
         private int MaQuan;
         private DateTime NgayTiepNhan;
-        private float TongNo;
+        private int TongNo;
         private String Email;
 
-        public tblDAILY(int maDaiLy, string tenDaiLy, int maLoaiDaiLy, int dienThoai, string diaChi, int maQuan, DateTime ngayTiepNhan, float tongNo, string email)
+        public tblDAILY(int maDaiLy, string tenDaiLy, int maLoaiDaiLy, int dienThoai, string diaChi, int maQuan, DateTime ngayTiepNhan,int tongNo, string email)
         {
             MaDaiLy = maDaiLy;
             TenDaiLy = tenDaiLy;
@@ -38,7 +38,7 @@ namespace DTO
         public string DiaChi1 { get => DiaChi; set => DiaChi = value; }
         public int MaQuan1 { get => MaQuan; set => MaQuan = value; }
         public DateTime NgayTiepNhan1 { get => NgayTiepNhan; set => NgayTiepNhan = value; }
-        public float TongNo1 { get => TongNo; set => TongNo = value; }
+        public int TongNo1 { get => TongNo; set => TongNo = value; }
         public string Email1 { get => Email; set => Email = value; }
     }
 }

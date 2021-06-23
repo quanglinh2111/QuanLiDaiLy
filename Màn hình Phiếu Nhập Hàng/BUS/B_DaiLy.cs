@@ -42,6 +42,12 @@ namespace BUS
         {
             D_LoaiDaiLy.ChonLoaiDaiLy(ldl);
         }
+        public static DataTable getTablebyquery(string query)
+        {
+
+            DataTable dt = dbConnectionData.getDatabyquery(query);
+            return dt;
+        }
 
     }
 }
