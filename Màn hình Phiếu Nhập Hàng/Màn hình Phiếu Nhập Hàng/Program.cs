@@ -16,7 +16,7 @@ namespace Màn_hình_Phiếu_Nhập_Hàng
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ManHinhDaiLy());
+            Application.Run(new ManHinhPhieuThuTien());
         }
     }
 }

@@ -20,5 +20,12 @@ namespace BUS
         {
             D_PhieuThuTien.TaoPhieuThuTien(pt);
         }
+
+        public static DataTable getTablebyquery(string query)
+        {
+
+            DataTable dt = dbConnectionData.getDatabyquery(query);
+            return dt;
+        }
     }
 }

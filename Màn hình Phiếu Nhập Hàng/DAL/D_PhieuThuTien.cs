@@ -29,15 +29,15 @@ namespace DAL
         {
             SqlConnection Conn = dbConnectionData.HamKetNoi();
             Conn.Open();
-            SqlCommand command = new SqlCommand("pt_taophieuthu", Conn);
+            SqlCommand command = new SqlCommand("ptt_taophieuthu", Conn);
             command.CommandType = CommandType.StoredProcedure;
 
-            command.Parameters.Add("@MaPhieuThu", SqlDbType.Int);
+            command.Parameters.Add("@MaPhieuThuTien", SqlDbType.Int);
             command.Parameters.Add("@MaDaiLy", SqlDbType.Int);
             command.Parameters.Add("@NgayThuTien", SqlDbType.DateTime);
             command.Parameters.Add("@SoTienThu", SqlDbType.Float);
 
-            command.Parameters["@MaPhieuThu"].Value = pt.MaPhieuThuTien1;
+            command.Parameters["@MaPhieuThuTien"].Value = pt.MaPhieuThuTien1;
             command.Parameters["@MaDaiLy"].Value = pt.MaDaiLy1;
             command.Parameters["@NgayThuTien"].Value = pt.NgayThuTien1;
             command.Parameters["@SoTienThu"].Value = pt.@SoTienThu1;
