@@ -1,0 +1,10 @@
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\QuanLiCacDaiLy\bin\Debug\QuanLiCacDaiLy.exe.config
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\QuanLiCacDaiLy\bin\Debug\QuanLiCacDaiLy.exe
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\QuanLiCacDaiLy\bin\Debug\QuanLiCacDaiLy.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\QuanLiCacDaiLy\obj\Debug\QuanLiCacDaiLy.csprojAssemblyReference.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\QuanLiCacDaiLy\obj\Debug\QuanLiCacDaiLy.frmDangNhap.resources
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\QuanLiCacDaiLy\obj\Debug\QuanLiCacDaiLy.Properties.Resources.resources
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\QuanLiCacDaiLy\obj\Debug\QuanLiCacDaiLy.csproj.GenerateResource.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\QuanLiCacDaiLy\obj\Debug\QuanLiCacDaiLy.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\QuanLiCacDaiLy\obj\Debug\QuanLiCacDaiLy.exe
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\QuanLiCacDaiLy\obj\Debug\QuanLiCacDaiLy.pdb

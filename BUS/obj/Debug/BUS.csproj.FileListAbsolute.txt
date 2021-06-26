@@ -1,0 +1,22 @@
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\bin\Debug\BUS.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\bin\Debug\BUS.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\obj\Debug\BUS.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\obj\Debug\BUS.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\bin\Debug\DAL.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\bin\Debug\DTO.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\bin\Debug\DAL.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\bin\Debug\DTO.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\bin\Debug\BUS.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\bin\Debug\BUS.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\bin\Debug\DAL.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\bin\Debug\DTO.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\bin\Debug\DAL.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\bin\Debug\DTO.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\obj\Debug\BUS.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\BUS\obj\Debug\BUS.pdb

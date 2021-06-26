@@ -1,0 +1,18 @@
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DAL\bin\Debug\DAL.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DAL\bin\Debug\DAL.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DAL\obj\Debug\DAL.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DAL\obj\Debug\DAL.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DAL\bin\Debug\DTO.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DAL\bin\Debug\DTO.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\DAL\bin\Debug\DAL.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\DAL\bin\Debug\DAL.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\DAL\bin\Debug\DTO.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\DAL\bin\Debug\DTO.pdb
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\DAL\obj\Debug\DAL.dll
+C:\Users\KIM\Desktop\HKI-2021\nmcnpm\code\QuanLiCacDaiLy\DAL\obj\Debug\DAL.pdb

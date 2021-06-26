@@ -1,0 +1,6 @@
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DTO\bin\Debug\DTO.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DTO\bin\Debug\DTO.pdb
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DTO\obj\Debug\DTO.dll
+D:\HỌC TẬP\HỌC TẠI TRƯỜNG\HỌC KÌ IV(II) NĂM HAI(2020-2021)\NHẬP MÔN CÔNG NGHỆ PHẦN MỀM\QuanLiCacDaiLy\QuanLiCacDaiLy\DTO\obj\Debug\DTO.pdb
